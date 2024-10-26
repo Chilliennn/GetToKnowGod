@@ -11557,3 +11557,54 @@ textarea.form-control-lg {
   width: 4rem;
   font-size: 2rem;
 }
+.icon-link {
+  color: inherit;
+  text-decoration: none;
+}
+.icon-link:hover {
+  color: inherit;
+}
+
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+  text-align: center;
+}
+
+.intro, .background, .interests, .goals {
+  margin-bottom: 30px;
+}
+
+.container1 h1, h2 {
+  color: #000;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.container1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-links img {
+  margin: 10px;
+}
+
+.apk-link button, .pdf-section button {
+  transition: background-color 0.3s;
+}
+
+.apk-link button:hover {
+  background-color: #005bb5;
+}
+
+.pdf-section button:hover {
+  background-color: #218838;
+}
